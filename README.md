@@ -116,7 +116,7 @@ Copy the <b>Missions</b> folder from the EMS download ,copy and paste the EMS Fo
 
 <b>Replace with this:</b>
 
-    if(vehicle _x != _x && !(vehicle _x in PVDZE_serverObjectMonitor) && (isPlayer _x) && (vehicle _x getVariable [""Sarge"",0] != 1) && !((typeOf vehicle _x) in DZE_safeVehicle)) then {" \n
+    if(vehicle _x != _x && !(vehicle _x in PVDZE_serverObjectMonitor) && (isPlayer _x) && (vehicle _x getVariable ["Sarge",0] != 1) && !((typeOf vehicle _x) in DZE_safeVehicle)) then {" \n
 
 <b>Repack your dayz_server.pbo and replace your original one.</b>
 
